@@ -1,0 +1,37 @@
+/* Contenedor que agrupa ambos cuadrados */
+.cuadrado-base {
+  position: relative; /* 1. Base para que el cuadrado de atrás no se mueva por la pantalla */
+  width: 200px;       /* Define el tamaño aquí */
+  height: 200px;
+  margin: 40px;       /* Margen para que se note el desfase de atrás */
+}
+
+/* El cuadrado decorativo que va ATRÁS */
+.cuadrado-atras {
+  position: absolute;
+  top: -8%;        
+  left: 10%;        
+  width: 100%;
+  height: 110%;
+  border: 8px solid #7572FF; 
+  background-color: transparent;   
+  z-index: 1;        
+}
+
+/* El cuadrado principal que va ADELANTE con texto */
+.cuadrado-frente {
+  position: absolute;
+  
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  z-index: 2;        /* 5. Capa superior (un número mayor que el de atrás) */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
