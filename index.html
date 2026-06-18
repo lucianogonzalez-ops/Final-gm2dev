@@ -6,34 +6,36 @@
     <title>App Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <div class="footer-desktop">
-        <div class="footer-desktop-contactos">
-            <span>Info@youremail.com</span>
-            <span>(480) 555-0103</span>
-        </div>
-        <div class="footer-desktop-redes">
-                <a href="#"><img src="images/facebook-fill.png" alt="Facebook"></a>
-                <a href="#"><img src="images/instagram-fill-bottom.png" alt="Instagram"></a>
-                <a href="#"><img src="images/twitter-fill-bottom.png" alt="Twitter"></a>
-                <a href="#"><img src="images/youtube-fill-bottom.png" alt="YouTube"></a>
-        </div>
-    </div>
-    
-    
     <header>
+        <div class="header-desktop">
+            <div class="header-desktop-contactos">
+                <div class="mail">
+                    <img src="images/mail-fill.png" alt="">
+                    <a href="Info@youremail.com" class="btn-link">Info@youremail.com</a>
+                </div>
+                <div class="phone">
+                    <img src="images/phone-fill.png" alt="">
+                    <a href="(480) 555-0103" class="">(480) 555-0103</a>
+                </div>
+            </div>
+            <div class="header-desktop-redes">
+                    <a href="#"><img src="images/facebook-fill-white.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/instagram-fill-bottom.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/twitter-fill-bottom.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/youtube-fill-bottom.png" alt="YouTube"></a>
+            </div>
+        </div>
+        
         <nav class="barra-navegacion" aria-label="Navegación principal">
+            
             <div>
                 <input type="checkbox" id="menu-btn" class="menu-check" aria-hidden="true">
-                
                 <label for="menu-btn" class="hamburger-icon" aria-label="Abrir menú de navegación">
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
-                
                 <ul class="mobile-menu">
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
@@ -41,21 +43,30 @@
                     <li><a href="#team">TEAM</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
+                
+                <div class="contenedor-lista">
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#features">FEATURES</a></li>
+                    </ul>
+                </div>
             </div>
-            
-            
             <div class="bloque-imagen-contenedor">
                 <img src="images/Logo4 1.png" alt="Logo de la app" class="logo-imagen">
-            
-            
             </div>
-            <a href="#" class="bloque-texto-download">Download</a>
-        
-        
-        
-        
+            <div>
+                <div class="contenedor-lista">
+                    <ul>
+                        <li><a href="#home">TEAM</a></li>
+                        <li><a href="#about">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="bloque-texto-download">Download</a>
+                </div>  
+            </div>
         </nav>
-
         <div class="contenedor-header">
             <div class="bloque-texto-header">
                 <h1>A GREAT APP MAKES YOUR LIFE BETTER</h1>
@@ -65,147 +76,121 @@
             <img src="/images/celu.png" alt="Vista previa de la app en un celular" class="imagen-header">
         </div>
     </header>
-
-
-
-
-    <section >
-        <div class="bloque-section-texto">
-            <h2 >ABOUT OUR APP</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
-        </div>
-        <div class="bloque-section">
-            <img src="images/image.png" alt="">
-            <div class="contenedor-flotantes">
-                
-                <div class="bloque-section-flotantes">
-                    <div class="texto-section-header">
-                        <img src="images/checkbox.png" alt="checkbox" class="texto-section-image">
-                        <h3>CREATIVE DESIGN</h3>
+    <main class="main">
+        <section >
+            <div class="bloque-section-texto">
+                <h2 >ABOUT OUR APP</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
+            </div>
+            <div class="bloque-section">
+                <img src="images/image.png" alt="">
+                <div class="contenedor-flotantes">
+                    <div class="bloque-section-flotantes">
+                        <div class="texto-section-header">
+                            <img src="images/checkbox.png" alt="checkbox" class="texto-section-image">
+                            <h3>CREATIVE DESIGN</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>  
+                    <div class="bloque-section-flotantes">
+                        <div class="texto-section-header">
+                            <img src="images/checkbox.png" alt="checkbox" class="texto-section-image">
+                            <h3>CREATIVE DESIGN</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>  
-                    
-                
-                
-                <div class="bloque-section-flotantes">
-                    <div class="texto-section-header">
-                        <img src="images/checkbox.png" alt="checkbox" class="texto-section-image">
-                        <h3>CREATIVE DESIGN</h3>
+                    <div class="bloque-section-flotantes-last">
+                        <div class="texto-section-header">
+                            <img src="images/checkbox.png" alt="checkbox" class="texto-section-image">
+                            <h3>CREATIVE DESIGN</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="bloque-section-flotantes-last">
-                    <div class="texto-section-header">
-                        <img src="images/checkbox.png" alt="checkbox" class="texto-section-image">
-                        <h3>CREATIVE DESIGN</h3>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
+        </section>
+        <div class="texto-arriba-main">
+            <h2>App Features</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
         </div>
-    </section>
-
-
-
-
-    <main class="main">
-        <h2>App Features</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
-        <article class=elementos-main>
+        <div class="elementos-main">
             <img src="images/comment.png" alt="">
             <h3>App feature</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
-        </article>
-
+        </div>
         <div class="contenedor-main">
-
             <div class="contenedor-main-top">
-                <article class=elementos-main>
+                <div class="elementos-main">
                     <img src="images/browser.png" alt="">
                     <h3>App feature</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
-                </article>
-                <article class=elementos-main>
+                </div>
+                <div class="elementos-main">
                     <img src="images/vector.png" alt="">
                     <h3>App feature</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
-                </article>
+                </div>
             </div>
-
-            <img src="images/App.png" >
-
+            <img src="images/App.png" alt="">
             <div class="contenedor-main-bottom">
-                <article class=elementos-main>
+                <div class="elementos-main">
                     <img src="images/comment.png" alt="">
                     <h3>App feature</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
-                </article>
-                <article class=elementos-main>
+                </div>
+                <div class="elementos-main">
                     <img src="images/browser.png" alt="">
                     <h3>App feature</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
-                </article>
+                </div>
             </div>
-
         </div>
-
-        
-
-        <article class=elementos-main>
+        <div class="elementos-main-last">
             <img src="images/vector.png" alt="">
             <h3>App feature</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
-        </article>
-
-    </main>
-
-    <section class="bloque-section-members" >
-        <h2 id="team-heading">OUR REACTIVE TEAM</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
-
-        <div class="contenedor-members-principal">
-
-            <article class="contenedor-members">
-                <img src="images/Profile.png" alt="Foto de Carla Press" class="imagen-member">
-                <h3>CARLA PRESS</h3>
-                <p class="member-role">APP DEVELOPER</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
-                <div class="imagen-bottom" aria-label="Redes sociales de Carla Press">
-                    <a href="#"><img src="images/facebook-fill.png" alt="Facebook"></a>
-                    <a href="#"><img src="images/instagram-fill.png" alt="Instagram"></a>
-                    <a href="#"><img src="images/twitter-fill.png" alt="Twitter"></a>
-                    <a href="#"><img src="images/youtube-fill.png" alt="YouTube"></a>
-                </div>
-            </article>
-
-            <article class="contenedor-members">
-                <img src="images/Profile.png"  class="imagen-member">
-                <h3>CARLA PRESS</h3>
-                <p >APP DEVELOPER</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
-                <div class="imagen-bottom" >
-                    <a href="#"><img src="images/facebook-fill.png" alt="Facebook"></a>
-                    <a href="#"><img src="images/instagram-fill.png" alt="Instagram"></a>
-                    <a href="#"><img src="images/twitter-fill.png" alt="Twitter"></a>
-                    <a href="#"><img src="images/youtube-fill.png" alt="YouTube"></a>
-                </div>
-            </article>
-
-            <article class="contenedor-members">
-                <img src="images/Profile.png" alt="Foto de Carla Press" class="imagen-member">
-                <h3>CARLA PRESS</h3>
-                <p class="member-role">APP DEVELOPER</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
-                <div class="imagen-bottom">
-                    <a href="#"><img src="images/facebook-fill.png" alt="Facebook"></a>
-                    <a href="#"><img src="images/instagram-fill.png" alt="Instagram"></a>
-                    <a href="#"><img src="images/twitter-fill.png" alt="Twitter"></a>
-                    <a href="#"><img src="images/youtube-fill.png" alt="YouTube"></a>
-                </div>
-            </article>
-
         </div>
+        <section class="bloque-section-members" >
+            <h2 id="team-heading">OUR REACTIVE TEAM</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
+            <div class="contenedor-members-principal">
+                <article class="contenedor-members">
+                    <img src="images/Profile.png" alt="Foto de Carla Press" class="imagen-member">
+                    <h3>CARLA PRESS</h3>
+                    <p class="member-role">APP DEVELOPER</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
+                    <div class="imagen-bottom" aria-label="Redes sociales de Carla Press">
+                        <a href="#"><img src="images/facebook-fill.png" alt="Facebook"></a>
+                        <a href="#"><img src="images/instagram-fill.png" alt="Instagram"></a>
+                        <a href="#"><img src="images/twitter-fill.png" alt="Twitter"></a>
+                        <a href="#"><img src="images/youtube-fill.png" alt="YouTube"></a>
+                    </div>
+                </article>
+                <article class="contenedor-members">
+                    <img src="images/Profile.png"  class="imagen-member">
+                    <h3>CARLA PRESS</h3>
+                    <p >APP DEVELOPER</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
+                    <div class="imagen-bottom" >
+                        <a href="#"><img src="images/facebook-fill.png" alt="Facebook"></a>
+                        <a href="#"><img src="images/instagram-fill.png" alt="Instagram"></a>
+                        <a href="#"><img src="images/twitter-fill.png" alt="Twitter"></a>
+                        <a href="#"><img src="images/youtube-fill.png" alt="YouTube"></a>
+                    </div>
+                </article>
+                <article class="contenedor-members">
+                    <img src="images/Profile.png" alt="Foto de Carla Press" class="imagen-member">
+                    <h3>CARLA PRESS</h3>
+                    <p class="member-role">APP DEVELOPER</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
+                    <div class="imagen-bottom">
+                        <a href="#"><img src="images/facebook-fill.png" alt="Facebook"></a>
+                        <a href="#"><img src="images/instagram-fill.png" alt="Instagram"></a>
+                        <a href="#"><img src="images/twitter-fill.png" alt="Twitter"></a>
+                        <a href="#"><img src="images/youtube-fill.png" alt="YouTube"></a>
+                    </div>
+                </article>
+            </div>
     </section>
     <div class="bloque-contacto">
         <div class="contacto-item">
@@ -222,12 +207,8 @@
             <span>+880 321 655 9985</span>
         </div>
     </div>
-
-
-
-
+    </main>
     <footer class="footer">
-
         <div class="footer-logo">
             <h2>LOGO</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
@@ -238,7 +219,6 @@
                 <a href="#"><img src="images/youtube-fill-bottom.png" alt="YouTube"></a>
             </div>
         </div>
-
         <nav class="footer-quick-link" >
             <h2>QUICK LINK</h2>
             <ul>
@@ -248,13 +228,10 @@
                 <li><a href="">Blog</a></li>
             </ul>
         </nav>
-
         <div class="footer-newsletter">
             <h2>NEWS LETTER</h2>
             <p>Subscribe our newsletter to get our latest update & news</p>
         </div>
-
     </footer>
-
 </body>
 </html>
